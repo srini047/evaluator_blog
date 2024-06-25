@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "evaluator-blog"
+version = "0.1.0"
+description = ""
+authors = [
+  { name="Sriniketh J", email="srinikethcr7@gmail.com" },
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nltk = "^3.8.1"
+rouge-score = "^0.1.2"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
